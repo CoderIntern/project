@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.OrderingDao">
+    <!--目的：为接口方法提供sql语句配置,"<="-><![CDATA[<=]]>,参数"#{ }"-->
+    <insert id="ordering">
+        insert into ordered(user_id,insert_time) values(#{name},CURDATE())
+    </insert>
+    <!--insert主键冲突 使用insert ignore into table,有冲突时返回0-->
+    <select id="queryAllOrdered" resultType="Ordering">
+          SELECT `user`.id id,`user`.name name
+          FROM(SELECT DISTINCT user_id
+              FROM ordered WHERE TO_DAYS(insert_time) = TO_DAYS(NOW()))a
+          JOIN `user`
+          ON `user`.id = a.user_id
+
+    </select>
+
+    <select id="queryExistByName" resultType="Ordering">
+        SELECT id,user_id
+        FROM ordered
+        WHERE user_id = #{user_id} AND TO_DAYS(insert_time) = TO_DAYS(NOW())
+    </select>
+</mapper>
