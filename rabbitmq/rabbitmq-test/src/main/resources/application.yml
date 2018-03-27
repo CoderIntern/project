@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: rabbitmq-fanout
+  rabbitmq:
+    ost: 47.93.172.8
+    port: 5672
+    username: rabbitmq
+    password: 12345qwert
