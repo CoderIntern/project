@@ -1,0 +1,10 @@
+
+*.class
+*.properties
+*.xml
+*.yml
+*.lst
+*.original
+*.jar
+project-rabbitmq-amqp-tutorials/rabbitmq-amqp-tutorials/target/surefire-reports/org.springframework.amqp.tutorials.rabbitmqamqptutorials.RabbitmqAmqpTutorialsApplicationTests.txt
+*.iml

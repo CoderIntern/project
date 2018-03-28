@@ -16,6 +16,7 @@ public class Tut1Sender {
     public void send() {
         String message = "Hello World!";
         this.template.convertAndSend(queue.getName(), message);
+        System.out.println("=================发送到队列的名称: " + queue.getName() + "=================");
         System.out.println(" [x] Sent '" + message + "'");
     }
 
