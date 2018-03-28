@@ -27,11 +27,12 @@
 -> 1. mvn clean package
 -> 2. java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=topics,receiver --tutorial.client.duration=60000
 -> 3. java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=topics,sender --tutorial.client.duration=60000
--> 4. 
+-> 4. Tut5Config.java 定义了一个TopicExchange bean，一个receiver两个队列，将队列按照routingKey分别绑定到TopicExchange
 ###tut6 RPC 如何启动应用程序
 -> 1. mvn clean package
 -> 2. java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=rpc,server
 -> 3. java -jar target/rabbitmq-amqp-tutorials-0.0.1-SNAPSHOT.jar --spring.profiles.active=rpc,client
+-> 4. Tut6Config.java 定义了一个client端其中包括一个DirectExchange和一个client，一个server端其中包括一个队列一个DirectExchange，并将队列绑定到DirectExchange，一个server，
 ###为什么要命令启动
 应为使用了@Profile 注解，应用程序使用Spring配置文件来控制它的行为
 
