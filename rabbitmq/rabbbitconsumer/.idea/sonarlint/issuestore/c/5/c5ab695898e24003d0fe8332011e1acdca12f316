@@ -1,10 +1,10 @@
 
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÔóŒ¥,
-fsquid:S1192"JDefine a constant instead of duplicating this literal "testblock" 7 times.(¡ÔÈ®8ÁÈşŒ¥,
-Msquid:S1172",Remove this unused method parameter "count".(œ¼€¦øÿÿÿÿ8ìŒíŒ¥,
-hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(œ¼€¦øÿÿÿÿ8Ï’ëŒ¥,
-Dsquid:S1604"(Make this anonymous inner class a lambda(”“¥ò8ìŒíŒ¥,
-§%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(œ¼€¦øÿÿÿÿ8ìŒíŒ¥,
-csquid:UselessImportCheck"5Remove this unused import 'com.rabbitmq.client.AMQP'.(È†úşÿÿÿÿÿ8ºñ†¥,
-fsquid:S2095"EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ8Ô¬õŒ¥,
+ %squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(œ¼€¦øÿÿÿÿ
+_squid:S1192"JDefine a constant instead of duplicating this literal "testblock" 7 times.(¡ÔÈ®
+_squid:S2095"EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ
+Fsquid:S1172",Remove this unused method parameter "count".(œ¼€¦øÿÿÿÿ
+=squid:S1604"(Make this anonymous inner class a lambda(”“¥ò
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(œ¼€¦øÿÿÿÿ
 msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ƒó‰Û
+\squid:UselessImportCheck"5Remove this unused import 'com.rabbitmq.client.AMQP'.(È†úşÿÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

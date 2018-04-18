@@ -1,26 +1,26 @@
 
+ %squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ôÔ¡¼øÿÿÿÿ
  %squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¿ä’¬øÿÿÿÿ
-=squid:S1604"(Make this anonymous inner class a lambda(”“¥ò
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ï ™ö
 }squid:S3008"cRename this field "producterConnection_size" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËııÒıÿÿÿÿ
-usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÿÊ¨ğúÿÿÿÿ
-[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ã½‡øÿÿÿÿ
-Bsquid:S1604"(Make this anonymous inner class a lambda(€á€‹şÿÿÿÿ
-?squid:S00108")Either remove or fill this block of code.(”ı¾
-?squid:S00108")Either remove or fill this block of code.(”ı¾
-Csquid:S1313".Make this IP "127.0.0.1" address configurable.(äñú
-=squid:S1604"(Make this anonymous inner class a lambda(”“¥ò
-usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(åşÂÎüÿÿÿÿ
+|squid:S3008"bRename this field "consumerConnection_size" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÚâëùÿÿÿÿ
+jsquid:S3008"URename this field "sleep_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸâÃ™
+Zsquid:S2095"EUse try-with-resources or close this "Channel" in a "finally" clause.(õÿå¸
 _squid:S2095"EUse try-with-resources or close this "Channel" in a "finally" clause.(ıÍ•ûÿÿÿÿ
+Csquid:S1313".Make this IP "127.0.0.1" address configurable.(äñú
 esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¬¸õğÿÿÿÿÿ
-?squid:S00108")Either remove or fill this block of code.(ä ¹€
 lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ôÔ¡¼øÿÿÿÿ
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+?squid:S00108")Either remove or fill this block of code.(”ı¾
+?squid:S00108")Either remove or fill this block of code.(ä ¹€
+?squid:S00108")Either remove or fill this block of code.(”ı¾
+Bsquid:S1604"(Make this anonymous inner class a lambda(€á€‹şÿÿÿÿ
+=squid:S1604"(Make this anonymous inner class a lambda(”“¥ò
+=squid:S1604"(Make this anonymous inner class a lambda(”“¥ò
 asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ôÔ¡¼øÿÿÿÿ
 asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¿ä’¬øÿÿÿÿ
-jsquid:S3008"URename this field "sleep_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸâÃ™
+usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ã½‡øÿÿÿÿ
+usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(åşÂÎüÿÿÿÿ
+usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÿÊ¨ğúÿÿÿÿ
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ï ™ö
 =squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Zsquid:S2095"EUse try-with-resources or close this "Channel" in a "finally" clause.(õÿå¸
-|squid:S3008"bRename this field "consumerConnection_size" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÚâëùÿÿÿÿ
- %squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ôÔ¡¼øÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

@@ -1,3 +1,4 @@
+/*
 package rabbitmqdemo.rabbbittest.config;
 
 import org.springframework.amqp.core.Binding;
@@ -26,3 +27,4 @@ public class FanoutRabbitConfig {
     }
 
 }
+*/

@@ -4,7 +4,7 @@ spring:
   application:
     name: rabbitmq-fanout
   rabbitmq:
-    host: 192.168.10.178
+    host: 127.0.0.1
     port: 5672
-    username: rabbitmq
-    password: 12345qwert
+    username: guest
+    password: guest

@@ -1,18 +1,18 @@
 
+~squid:S3008"dRename this field "PRODUCTER_CONNECTION_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÙñˆÿÿÿÿÿ
+xsquid:S3008"cRename this field "CONSUMER_CONNECTION_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—¾
+hsquid:S3008"NRename this field "QOS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Ã²õşÿÿÿÿ
+osquid:S3008"URename this field "SLEEP_TIME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²©÷§ıÿÿÿÿ
+gsquid:S3008"RRename this field "AUTOACK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ’½
+Ysquid:S1444"?Make this "public static PRODUCTER_CONNECTION_SIZE" field final(àÙñˆÿÿÿÿÿ
+Ssquid:S1444">Make this "public static CONSUMER_CONNECTION_SIZE" field final(—¾
+Csquid:S1444")Make this "public static QOS" field final(¡Ã²õşÿÿÿÿ
+Jsquid:S1444"0Make this "public static SLEEP_TIME" field final(²©÷§ıÿÿÿÿ
+Bsquid:S1444"-Make this "public static AUTOACK" field final(õ’½
+–"squid:ClassVariableVisibilityCheck"eMake PRODUCTER_CONNECTION_SIZE a static final constant or non-public and provide accessors if needed.(àÙñˆÿÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"dMake CONSUMER_CONNECTION_SIZE a static final constant or non-public and provide accessors if needed.(—¾
+€"squid:ClassVariableVisibilityCheck"OMake QOS a static final constant or non-public and provide accessors if needed.(¡Ã²õşÿÿÿÿ
+‡"squid:ClassVariableVisibilityCheck"VMake SLEEP_TIME a static final constant or non-public and provide accessors if needed.(²©÷§ıÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"SMake AUTOACK a static final constant or non-public and provide accessors if needed.(õ’½
+Osquid:S1118":Add a private constructor to hide the implicit public one.(€ÏÎ€
 msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ƒó‰Û
-—"squid:ClassVariableVisibilityCheck"dMake CONSUMER_CONNECTION_SIZE a static final constant or non-public and provide accessors if needed.(—¾8œú¨¥,
-…squid:S3008"dRename this field "PRODUCTER_CONNECTION_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÙñˆÿÿÿÿÿ8Àô¢¥,
-`squid:S1444"?Make this "public static PRODUCTER_CONNECTION_SIZE" field final(àÙñˆÿÿÿÿÿ8Àô¢¥,
-"squid:ClassVariableVisibilityCheck"eMake PRODUCTER_CONNECTION_SIZE a static final constant or non-public and provide accessors if needed.(àÙñˆÿÿÿÿÿ8Àô¢¥,
-squid:S3008"cRename this field "CONSUMER_CONNECTION_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—¾8œú¨¥,
-Vsquid:S1118":Add a private constructor to hide the implicit public one.(€ÏÎ€8Àô¢¥,
-Zsquid:S1444">Make this "public static CONSUMER_CONNECTION_SIZE" field final(—¾8œú¨¥,
-osquid:S3008"NRename this field "QOS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Ã²õşÿÿÿÿ8˜°®¥,
-vsquid:S3008"URename this field "SLEEP_TIME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²©÷§ıÿÿÿÿ8˜°®¥,
-nsquid:S3008"RRename this field "AUTOACK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ’½8˜°®¥,
-Jsquid:S1444")Make this "public static QOS" field final(¡Ã²õşÿÿÿÿ8˜°®¥,
-Qsquid:S1444"0Make this "public static SLEEP_TIME" field final(²©÷§ıÿÿÿÿ8˜°®¥,
-Isquid:S1444"-Make this "public static AUTOACK" field final(õ’½8˜°®¥,
-‡"squid:ClassVariableVisibilityCheck"OMake QOS a static final constant or non-public and provide accessors if needed.(¡Ã²õşÿÿÿÿ8˜°®¥,
-"squid:ClassVariableVisibilityCheck"VMake SLEEP_TIME a static final constant or non-public and provide accessors if needed.(²©÷§ıÿÿÿÿ8˜°®¥,
-†"squid:ClassVariableVisibilityCheck"SMake AUTOACK a static final constant or non-public and provide accessors if needed.(õ’½8˜°®¥,

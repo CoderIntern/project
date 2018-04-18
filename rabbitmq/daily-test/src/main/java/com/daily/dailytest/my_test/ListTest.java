@@ -19,9 +19,25 @@ import java.util.List;
  * <p>    1                                     </p>
  */
 public class ListTest {
+
+    private void test1() {
+        ReportBO reportBO = new ReportBO();
+        setReportBO(reportBO);
+        System.out.println(reportBO);
+    }
+
+    private void test2() {
+        Object obj = null;
+        ReportBO reportBO = (ReportBO) obj;
+    }
+
+    private void setReportBO(ReportBO bo) {
+        bo.setGwId("aksdlfjaksdj");
+    }
+
     public static void main(String[] args) {
-        long timeInMillis = Calendar.getInstance().getTimeInMillis();
-        System.out.println(timeInMillis);
+        ListTest l = new ListTest();
+        l.test2();
     }
 
 }

@@ -1,9 +1,9 @@
 
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ß‰ÀŒ¥,
-nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ì¤¬å8€ßÕŒ¥,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ã•ÓŒ¥,
-esquid:S2583"DChange this condition so that it does not always evaluate to "false"(¢¢þøúÿÿÿÿ8ÿÍÙŒ¥,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8€ßÕŒ¥,
-fsquid:S2095"EUse try-with-resources or close this "Channel" in a "finally" clause.(òŠ°íþÿÿÿÿ8ß‰ÀŒ¥,
+_squid:S2095"EUse try-with-resources or close this "Channel" in a "finally" clause.(òŠ°íþÿÿÿÿ
+^squid:S2583"DChange this condition so that it does not always evaluate to "false"(¢¢þøúÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ì¤¬å
+=squid:S1604"(Make this anonymous inner class a lambda(”“¥ò
 msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ƒó‰Û
-Dsquid:S1604"(Make this anonymous inner class a lambda(”“¥ò8£Ù¹Œ¥,
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
